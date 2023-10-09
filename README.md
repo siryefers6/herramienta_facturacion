@@ -97,5 +97,5 @@ touch herramienta_facturacion.py
 
 - Pushear antes de crear primera rama.
 
-- Crear rama `conexion_db.py`, para construir conexión a base de datos.
+- Crear y cambiar a rama `conexion_db.py`, para construir conexión a base de datos.
 
