@@ -96,3 +96,14 @@ touch herramienta_facturacion.py
 ```
 
 - Pushear antes de crear primera rama.
+
+- Crear y cambiar a rama `conexion_db.py`, para construir conexión a base de datos.
+
+- Archivo `conexion_db.py` terminado, mergear con rama main y pushear:
+```
+git add .
+git commit -m 'Archivo `conexion_db.py`, terminado y probado.'
+git checkout main
+git merge conexion_db.py
+git push origin main
+```
