@@ -110,3 +110,13 @@ git branch -d conexion_db.py
 ```
 
 - Crear y cambiar a rama `cliente.py`, para construir modelo cliente e interacción con la base de datos.
+
+- Archivo `cliente.py` terminado, mergear con rama main, pushear y eliminar rama `cliente.py`:
+```
+git add .
+git commit -m 'Archivo `cliente.py`, terminado y probado.'
+git checkout main
+git merge cliente.py
+git push origin main
+git branch -d cliente.py
+```
