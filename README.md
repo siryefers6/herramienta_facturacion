@@ -25,8 +25,11 @@ herramienta_facturacion/
 |-- README.md
 |-- .gitignore
 |-- requirements.txt
-|-- vev/
+|-- venv/
 ```
+
+---
+
 ## Pasos realizados en proceso de desarrollo:
 
 - Crear carpeta del proyecto llamada `herramienta_facturacion`
@@ -62,8 +65,34 @@ __pycache__/
 
 - Crear repositorio remoto en GitHub, necesario para guardar repositorio local.
 
-- Enlazar repositorio remoto con repositorio local.
+- Ejecutar primer add:
+```
+git add .
+
 ```
 
+- Ejecutar primer commit:
+```
+git commit -m 'Primer commit.'
 
 ```
+
+- Enlazar repositorio remoto con repositorio local, realizando primer push.
+```
+git remote add origin git@github.com:siryefers6/herramienta_facturacion.git
+git branch -M main
+git push -u origin main
+
+```
+
+- Crear estructura de archivos y carpetas por consola:
+```
+mkdir client model database
+touch client/__init__.py client/gui_app.py
+touch model/__init__.py model/conexion_db.py model/cliente.py
+touch model/item.py model/cc_especial.py model/solicitante_facturas.py
+touch herramienta_facturacion.py
+
+```
+
+- Pushear antes de crear primera rama.
