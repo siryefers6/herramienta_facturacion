@@ -146,3 +146,17 @@ git branch -d item.py
 ```
 
 **Nota importante: Tener muy presente en consultas SQL encerrar variables str en '' e integers no encerrar en comillas. De lo contrario dará error.**
+
+- Crear y cambiar a rama `solicitante_facturas.py`, para construir modelo solicitante facturas e interacción con la base de datos.
+
+- Archivo `solicitante_facturas.py` terminado, mergear con rama main, pushear y eliminar rama `solicitante_facturas.py`:
+
+```
+git add .
+git commit -m 'Archivo `solicitante_facturas.py`, terminado y testeado.'
+git checkout main
+git merge item.py
+git push origin main
+git branch -d item.py
+```
+
