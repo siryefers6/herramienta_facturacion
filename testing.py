@@ -34,3 +34,22 @@
 # print(SolicitanteFacturas.listar(SolicitanteFacturas))
 # comp2.editar()
 # comp2.eliminar()
+
+
+# testing class CcEspecial.py #
+
+
+# from model.cc_especial import CcEspecial
+
+# cc1 = CcEspecial(9501, 'marketing')
+# cc2 = CcEspecial(9503, 'Publicidad especiales')
+# cc3 = CcEspecial(9500, 'rebate')
+
+# CcEspecial.crear_tabla(CcEspecial)
+# CcEspecial.borrar_tabla(CcEspecial)
+# cc1.guardar()
+# cc2.guardar()
+# cc3.guardar()
+# print(CcEspecial.listar(CcEspecial))
+# cc2.editar()
+# cc2.eliminar()

@@ -155,8 +155,20 @@ git branch -d item.py
 git add .
 git commit -m 'Archivo `solicitante_facturas.py`, terminado y testeado.'
 git checkout main
-git merge item.py
+git merge solicitante_facturas.py
 git push origin main
-git branch -d item.py
+git branch -d solicitante_facturas.py
 ```
 
+- Crear y cambiar a rama `cc_especial.py`, para construir modelo CcEspecial e interacción con la base de datos.
+
+- Archivo `cc_especial.py` terminado, mergear con rama main, pushear y eliminar rama `cc_especial.py`:
+
+```
+git add .
+git commit -m 'Archivo `cc_especial.py`, terminado y testeado.'
+git checkout main
+git merge cc_especial.py
+git push origin main
+git branch -d cc_especial.py
+```
