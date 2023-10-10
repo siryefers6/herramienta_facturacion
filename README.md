@@ -3,6 +3,7 @@
 Esta aplicación automatiza algunos procesos realizados en el área de Facturación.
 
 ## Estructura de archivos:
+
 ```
 herramienta_facturacion/
 |-- herramienta_facturacion.py
@@ -37,24 +38,28 @@ herramienta_facturacion/
 - Crear archivo `README.md` y empezar descripción del proyecto.
 
 - Crear entorno virtual Python dentro de carpeta raiz del proyecto.
+
 ```terminal
 python -m venv venv
 
 ```
 
 - Activar entorno virtual.
+
 ```terminal
 source venv/Scripts/activate
 
 ```
 
 - Iniciar git:
+
 ```terminal
 git init
 
 ```
 
 - Crear archivo .gitignore y agregar siguiente código:
+
 ```.gitignore
 /venv
 __pycache__/
@@ -66,18 +71,21 @@ __pycache__/
 - Crear repositorio remoto en GitHub, necesario para guardar repositorio local.
 
 - Ejecutar primer add:
+
 ```
 git add .
 
 ```
 
 - Ejecutar primer commit:
+
 ```
 git commit -m 'Primer commit.'
 
 ```
 
 - Enlazar repositorio remoto con repositorio local, realizando primer push.
+
 ```
 git remote add origin git@github.com:siryefers6/herramienta_facturacion.git
 git branch -M main
@@ -86,6 +94,7 @@ git push -u origin main
 ```
 
 - Crear estructura de archivos y carpetas por consola:
+
 ```
 mkdir client model database
 touch client/__init__.py client/gui_app.py
@@ -100,6 +109,7 @@ touch herramienta_facturacion.py
 - Crear y cambiar a rama `conexion_db.py`, para construir conexión a base de datos.
 
 - Archivo `conexion_db.py` terminado, mergear con rama main, pushear y eliminar rama `conexion_db.py`:
+
 ```
 git add .
 git commit -m 'Archivo `conexion_db.py`, terminado y probado.'
@@ -112,6 +122,7 @@ git branch -d conexion_db.py
 - Crear y cambiar a rama `cliente.py`, para construir modelo cliente e interacción con la base de datos.
 
 - Archivo `cliente.py` terminado, mergear con rama main, pushear y eliminar rama `cliente.py`:
+
 ```
 git add .
 git commit -m 'Archivo `cliente.py`, terminado y probado.'
@@ -124,14 +135,14 @@ git branch -d cliente.py
 - Crear y cambiar a rama `item.py`, para construir modelo item e interacción con la base de datos.
 
 - Archivo `item.py` terminado, mergear con rama main, pushear y eliminar rama `item.py`:
+
 ```
 git add .
-git commit -m 'Archivo `item.py`, terminado y probado.'
+git commit -m 'Archivo `item.py`, terminado y testeado.'
 git checkout main
-git merge cliente.py
+git merge item.py
 git push origin main
-git branch -d cliente.py
+git branch -d item.py
 ```
 
-**Nota importante: Tener muy presente en consultas SQL encerrar variables str en '' y integers no encerrar en comillas. De lo contrario dará error.**
-
+**Nota importante: Tener muy presente en consultas SQL encerrar variables str en '' e integers no encerrar en comillas. De lo contrario dará error.**
