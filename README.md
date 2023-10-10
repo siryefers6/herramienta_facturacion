@@ -120,3 +120,18 @@ git merge cliente.py
 git push origin main
 git branch -d cliente.py
 ```
+
+- Crear y cambiar a rama `item.py`, para construir modelo item e interacción con la base de datos.
+
+- Archivo `item.py` terminado, mergear con rama main, pushear y eliminar rama `item.py`:
+```
+git add .
+git commit -m 'Archivo `item.py`, terminado y probado.'
+git checkout main
+git merge cliente.py
+git push origin main
+git branch -d cliente.py
+```
+
+**Nota importante: Tener muy presente en consultas SQL encerrar variables str en '' y integers no encerrar en comillas. De lo contrario dará error.**
+
