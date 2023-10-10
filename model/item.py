@@ -1,5 +1,5 @@
 from .conexion_db import ConexionDB
-
+import pandas as pd
 
 # Clase item que representa un item.
 
@@ -111,3 +111,28 @@ class Item:
         except Exception as e:
             print(
                 f'Error al intentar eliminar item:\n{e}.\nItem no eliminado.')
+
+    def importar_csv(self) -> None:
+        i = 0
+        # Intenta leer el archivo CSV con diferentes encodings
+        encodings = ['utf-8', 'ISO-8859-1', 'latin1']
+        for encoding in encodings:
+            try:
+                df = pd.read_csv('items.csv', encoding=encoding)
+                # Si tiene éxito, rompe el bucle
+                break
+            except UnicodeDecodeError:
+                print(f'Error al leer con encoding {encoding}. Intentando con otro.')
+
+        df.columns = ['cod_item', 'desc_item', 'cod_codelco']
+
+        lista_items = df.to_dict(orient='records')
+        for item in lista_items:
+            try:
+                Item(item['cod_item'], item['desc_item'], item['cod_codelco']).guardar()
+            except Exception as e:
+                i += 1
+                continue
+
+        print('Items importados.')
+        print(f'Items ya existentes {i}.')

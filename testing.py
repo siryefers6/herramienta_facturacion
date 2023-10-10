@@ -1,5 +1,26 @@
 # testing class Cliente.py #
 
+# from model.cliente import Cliente
+
+
+# cliente1 = Cliente(24405907, 'yeferson bermudez molina')
+# cliente2 = Cliente(24219980, 'ruben dario bermudez gallego')
+# cliente3 = Cliente(24803784, 'miriam del socorro molina zapata')
+
+# Cliente.crear_tabla(Cliente)
+# Cliente.borrar_tabla(Cliente)
+# cliente1.guardar()
+# cliente2.guardar()
+# cliente3.guardar()
+# print(Cliente.listar(Cliente))
+# cliente2.editar()
+# cliente2.eliminar()
+
+# Cliente.importar_csv(Cliente)
+
+
+# testing class Cliente.py #
+
 
 # from model.item import Item
 
@@ -16,6 +37,7 @@
 # item2.editar()
 # item2.eliminar()
 
+# Item.importar_csv(Item)
 
 # testing class SolicitanteFacturas #
 

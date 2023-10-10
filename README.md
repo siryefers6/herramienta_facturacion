@@ -172,3 +172,7 @@ git merge cc_especial.py
 git push origin main
 git branch -d cc_especial.py
 ```
+
+- Instalar libreria pandas, necesario para importación de datos masivo.
+
+- Continuar en importar_csv solicitantes facturas, falta probar.

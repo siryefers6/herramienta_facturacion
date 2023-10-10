@@ -1,3 +1,4 @@
+import pandas as pd
 from .conexion_db import ConexionDB
 
 
@@ -111,3 +112,28 @@ class SolicitanteFacturas:
         except Exception as e:
             print(
                 f'Error al intentar eliminar solicitante de facturas:\n{e}.\nSolicitante no eliminado.')
+
+    def importar_csv(self) -> None:
+        i = 0
+        # Intenta leer el archivo CSV con diferentes encodings
+        encodings = ['utf-8', 'ISO-8859-1', 'latin1']
+        for encoding in encodings:
+            try:
+                df = pd.read_csv('solicitantes_facturas.csv', encoding=encoding)
+                # Si tiene éxito, rompe el bucle
+                break
+            except UnicodeDecodeError:
+                print(f'Error al leer con encoding {encoding}. Intentando con otro.')
+
+        df.columns = ['cod_solicitante', 'nombre_solicitante', 'cod_planilla']
+
+        lista_solicitantes = df.to_dict(orient='records')
+        for solicitante in lista_solicitantes:
+            try:
+                SolicitanteFacturas(solicitante['cod_solicitante'], solicitante['nombre_solicitante'], solicitante['cod_planilla']).guardar()
+            except Exception as e:
+                i += 1
+                continue
+
+        print('Solicitantes importados.')
+        print(f'Solicitnates ya existentes {i}.')
