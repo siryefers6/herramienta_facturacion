@@ -134,3 +134,11 @@ class CcEspecial:
 
         print('Ccostos_especiales importados.')
         print(f'Ccostos_especiales  ya existentes {i}.')
+
+    def listar_ccostos(self) -> list:
+        lista_ccostos_especiales = self.listar(CcEspecial)
+        lista_ccostos = []
+        for ccosto in lista_ccostos_especiales:
+            lista_ccostos.append(ccosto[0])
+
+        return lista_ccostos

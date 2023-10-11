@@ -16,8 +16,8 @@ from model.cliente import Cliente
 # cliente2.editar()
 # cliente2.eliminar()
 
-Cliente.importar_csv(Cliente)
-
+# Cliente.importar_csv(Cliente)
+# print(Cliente.listar_ruts(Cliente))
 
 # testing class Cliente.py #
 
@@ -37,7 +37,8 @@ from model.item import Item
 # item2.editar()
 # item2.eliminar()
 
-Item.importar_csv(Item)
+# Item.importar_csv(Item)
+# print(Item.listar_cods(Item))
 
 # testing class SolicitanteFacturas #
 
@@ -57,7 +58,9 @@ from model.solicitante_facturas import SolicitanteFacturas
 # comp2.editar()
 # comp2.eliminar()
 
-SolicitanteFacturas.importar_csv(SolicitanteFacturas)
+# SolicitanteFacturas.importar_csv(SolicitanteFacturas)
+# print(SolicitanteFacturas.listar_cods_solicitantes(SolicitanteFacturas))
+print(SolicitanteFacturas.listar_cods_planillas(SolicitanteFacturas))
 
 
 # testing class CcEspecial.py #
@@ -78,4 +81,5 @@ from model.cc_especial import CcEspecial
 # cc2.editar()
 # cc2.eliminar()
 
-CcEspecial.importar_csv(CcEspecial)
+# CcEspecial.importar_csv(CcEspecial)
+# print(CcEspecial.listar_ccostos(CcEspecial))

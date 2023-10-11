@@ -137,3 +137,19 @@ class SolicitanteFacturas:
 
         print('Solicitantes importados.')
         print(f'Solicitnates ya existentes {i}.')
+
+    def listar_cods_solicitantes(self) -> list:
+        lista_solicitantes = self.listar(SolicitanteFacturas)
+        lista_cods_solicitantes = []
+        for solicitante in lista_solicitantes:
+            lista_cods_solicitantes.append(solicitante[0])
+
+        return lista_cods_solicitantes
+    
+    def listar_cods_planillas(self) -> list:
+        lista_solicitantes = self.listar(SolicitanteFacturas)
+        lista_cods_planillas = []
+        for solicitante in lista_solicitantes:
+            lista_cods_planillas.append(solicitante[2])
+
+        return lista_cods_planillas

@@ -136,3 +136,11 @@ class Item:
 
         print('Items importados.')
         print(f'Items ya existentes {i}.')
+
+    def listar_cods(self) -> list:
+        lista_items = self.listar(Item)
+        lista_cods = []
+        for cod in lista_items:
+            lista_cods.append(cod[0])
+
+        return lista_cods

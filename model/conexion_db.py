@@ -5,7 +5,7 @@ class ConexionDB:
 
     def __init__(self) -> None:
         # Define el nombre y la ubicación de la base de datos.
-        self.base_datos = 'database\company.db'
+        self.base_datos = 'database/company.db'
 
         # Establece una conexión a la base de datos.
         self.conexion = sqlite3.connect(self.base_datos)

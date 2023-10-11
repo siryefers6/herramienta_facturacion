@@ -138,3 +138,14 @@ class Cliente:
 
         print('Documentos importados.')
         print(f'Documentos ya existentes {i}.')
+
+    # Función para listar todos los rut de clientes de la base de datos.
+
+
+    def listar_ruts(self) -> list:
+        lista_clientes = self.listar(Cliente)
+        lista_ruts = []
+        for cliente in lista_clientes:
+            lista_ruts.append(cliente[0])
+
+        return lista_ruts
