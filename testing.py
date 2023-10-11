@@ -60,7 +60,7 @@ from model.solicitante_facturas import SolicitanteFacturas
 
 # SolicitanteFacturas.importar_csv(SolicitanteFacturas)
 # print(SolicitanteFacturas.listar_cods_solicitantes(SolicitanteFacturas))
-print(SolicitanteFacturas.listar_cods_planillas(SolicitanteFacturas))
+# print(SolicitanteFacturas.listar_cods_planillas(SolicitanteFacturas))
 
 
 # testing class CcEspecial.py #
@@ -83,3 +83,8 @@ from model.cc_especial import CcEspecial
 
 # CcEspecial.importar_csv(CcEspecial)
 # print(CcEspecial.listar_ccostos(CcEspecial))
+
+from modules.rebate import *
+
+# print(limpiar_archivo_txt())
+print(lineas_archivo_txt())
