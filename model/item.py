@@ -118,7 +118,7 @@ class Item:
         encodings = ['utf-8', 'ISO-8859-1', 'latin1']
         for encoding in encodings:
             try:
-                df = pd.read_csv('items.csv', encoding=encoding)
+                df = pd.read_csv('items.csv', encoding=encoding, header=None)
                 # Si tiene éxito, rompe el bucle
                 break
             except UnicodeDecodeError:

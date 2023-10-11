@@ -1,3 +1,4 @@
+import pandas as pd
 from .conexion_db import ConexionDB
 
 
@@ -108,3 +109,28 @@ class CcEspecial:
         except Exception as e:
             print(
                 f'Error al intentar eliminar cc_especial:\n{e}.\nCc_especial no eliminado.')
+
+    def importar_csv(self) -> None:
+        i = 0
+        # Intenta leer el archivo CSV con diferentes encodings
+        encodings = ['utf-8', 'ISO-8859-1', 'latin1']
+        for encoding in encodings:
+            try:
+                df = pd.read_csv('cc_especiales.csv', encoding=encoding, header=None)
+                # Si tiene éxito, rompe el bucle
+                break
+            except UnicodeDecodeError:
+                print(f'Error al leer con encoding {encoding}. Intentando con otro.')
+
+        df.columns = ['cod_ccosto', 'desc_ccosto']
+
+        lista_ccostos = df.to_dict(orient='records')
+        for ccosto in lista_ccostos:
+            try:
+                CcEspecial(ccosto['cod_ccosto'], ccosto['desc_ccosto']).guardar()
+            except Exception as e:
+                i += 1
+                continue
+
+        print('Ccostos_especiales importados.')
+        print(f'Ccostos_especiales  ya existentes {i}.')
