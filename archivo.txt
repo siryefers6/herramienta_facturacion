@@ -2,15 +2,15 @@ rut  4.017.678         c costo  9501     vend  902    planilla  3131
 acuerdo comercial Q 3
 $366.360.
 
-rut 7.477.501         c costo  9501      vend  902     planilla  3131
+rut 7.477.501-         c costo  9501      vend  902     planilla  3131
 acuerdo comercial Q 3
 $ 2.031.387.-
 
-rut  76.069.879    c  costo   9501     vend   902     planilla   3131
+rut  76.069.879-    c  costo   9501     vend   902     planilla   3131
 acuerdo comercial  Q 3  rebate
 $ 1.723.644  
 
-rut   76.069.879   c  costo  9500      vend   902     planilla    3131
+rut   76.069.879-   c  costo  9500      vend   902     planilla    3131
 acuerdo comercial Q 3  marketing
 $ 430.911.-
 
@@ -29,84 +29,3 @@ $ 3.556.985.-
 rut  76.298.494     c costo  9501     vend    902     planilla   3131
 acuerdo comercial  Q 3
 $601.264.
-
-rut   76.298.494     c  costo   9502     vend   902     planilla   3131
-acuerdo comercial  Q 3 mermas
-$ 100.211.-
-
-rut  76.113.420     c  costo   9501     vend   902       planilla  3131
-acuerdo comercial  Q 3 
-$316.098.-
-
-rut   76.113.420    c  costo   9502     vend   902        planilla   3131
-acuerdo comercial    Q 3  mermas
-$ 52.683.-  
-
-rut  76.384.264    c  costo   9501      vend  902         planilla   3131
-acuerdo  comercial  Q  3
-$ 1.007.542.-
-
-rut   76.384.264    c  costo    9502      vend   902     planilla    3131
-acuerdo comercial   Q 3 mermas
-$ 201.508.-
-
-rut  76.445.026    c  costo   9501        vend   902        planilla  3131
-acuerdo comercial   Q 3  
-$2.974.380.-
-
-rut   76.445.026   c  costo   9500       vend    902          planilla   3131
-acuerdo comercial Q 3  marketing
-$991.460.-
-
-rut  76.835.717      c  costo   9501      vend  902         planilla   3131
-acuerdo comercial   Q 3 
-$  605.039
-
-rut  76.901.856      c costo   99501       vend  902       planilla   3131
-acuerdo comercial  Q 3 
-$363.127.-
-
-rut   76.901.856    c  costo    9502         vend  902         planilla  3131
-acuerdo comercial Q  3  mermas
-$ 90.782.-
-
-rut   77.125.960   c  costo   9501          vend   902          planilla   3131
-acuerdo comercial   Q 3 
-$ 128.468.-
-
-rut 80.538.300   c costo   9501              vend   902        planilla    3131
-acuerdo   comercial  Q  3
-$ 736.896.-
-
-rut 91.438.000    c  costo   9501          vend   902          planilla   3131
-acuerdo comercial   Q 3 
-$ 1.633.216.-
-
-rut  91.913.000     c  costo   9501        vend   902           planilla  3131 
-acuerdo comercial Q 3 
-$1.919.886.-
-
-rut  93.240.000        c costo    9501       vend  902           planilla   3131
-acuerdo comercial Q 3 
-$ 16.217.761.-
-
-rut  93.240.000       c  costo    9502      vend    902           planilla   3131
-acuerdo comercial Q 3 mermas
-$ 1.801.973.-
-
-rut  96.646.570       c  costo   9501        vend    902           planilla   3131
-acuerdo comercial  Q 3 
-$ 783.668.-
-
-
-rut  99.554.980      c  costo    9501     vend     902           planilla    3131
-acuerdo comercial Q 3  
-$ 4.311.213.-
-
-rut   99.554.980      c  costo    9500      vend     902          planilla    3131
-acuerdo comercial Q 3  marketing
-$  1.077.803
-
-rut   99.554.980      c  costo    9502      vend    902         planilla     3131
-acuerdo comercial    Q 3  mermas.
-$ 215.561.-

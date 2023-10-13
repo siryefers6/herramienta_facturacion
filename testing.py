@@ -87,4 +87,14 @@ from model.cc_especial import CcEspecial
 from modules.rebate import *
 
 # print(limpiar_archivo_txt())
-print(lineas_archivo_txt())
+# print(lineas_archivo_txt())
+
+lines = lineas_archivo_txt()
+ruts = []
+
+for line in lines:
+    line = detectar_rut(line)
+    if line:
+        ruts.append(line)
+
+print(ruts)

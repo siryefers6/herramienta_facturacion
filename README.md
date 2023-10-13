@@ -12,6 +12,10 @@ herramienta_facturacion/
 |   |-- __init__.py
 |   |-- gui_app.py
 |
+|-- modules/
+|   |-- __init__.py
+|   |-- rebate.py
+|
 |-- model/
 |   |-- __init__.py
 |   |-- conexion_db.py
@@ -175,4 +179,6 @@ git branch -d cc_especial.py
 
 - Instalar libreria pandas, necesario para importación de datos masivo.
 
-- Continuar en importar_csv solicitantes facturas, falta probar.
+- Método `importar_csv`, agregado a todos los model.
+
+- Nueva carpeta `modules`, necesaria para clases y métodos de procesos.
