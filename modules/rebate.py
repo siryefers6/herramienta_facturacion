@@ -13,7 +13,7 @@ def limpiar_archivo_txt() -> str:
         contenido = archivo.read()
 
     contenido = contenido.replace(',', '').replace(
-        '.', '').replace('  ', ' ').replace('  ', ' ').upper()
+        '.', '').replace('\t', ' ').replace('  ', ' ').replace('  ', ' ').upper()
 
     return contenido
 
