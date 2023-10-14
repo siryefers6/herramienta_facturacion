@@ -84,17 +84,11 @@ from model.cc_especial import CcEspecial
 # CcEspecial.importar_csv(CcEspecial)
 # print(CcEspecial.listar_ccostos(CcEspecial))
 
-from modules.rebate import *
+from modules.texto_correo import *
 
 # print(limpiar_archivo_txt())
 # print(lineas_archivo_txt())
 
-lines = lineas_archivo_txt()
-ruts = []
+texto_rebate = TextoCorreo('archivo.txt')
 
-for line in lines:
-    line = detectar_rut(line)
-    if line:
-        ruts.append(line)
-
-print(ruts)
+print(texto_rebate.extraer_ruts())
