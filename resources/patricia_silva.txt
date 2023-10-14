@@ -1,0 +1,42 @@
+Comprador 905
+
+RUT	Nombre	9501 Rapel	9501 Logístico	9502 Mermas	9501 Pronto pago
+99576580	BAGLEY CHILE S.A.	 $        397,899	 $                          -	 $            132,633	 $                                 -
+91438000	CAMBIASO HERMANOS S.A.C.	 $     3,595,301	 $                          -	 $                         -	 $                                 -
+78254990	CVTRADING S.A.	 $        512,362	 $                          -	 $            170,787	 $                                 -
+84476300	INDUST. DE ALIMENTOS DOS EN UN	 $        258,751	 $                          -	 $              86,250	 $                                 -
+76541630	SOCIEDAD PUNTA DE LOBOS S.A.	 $          39,981	 $               79,963	 $                7,996	 $                                 -
+76075072	TECNOPAPEL S.A.	 $122,008,963	 $                          -	 $                         -	 $              25,418,534
+96606780	TRAVERSO S.A.	 $        147,766	 $                          -	 $              49,255	 $                                 -
+
+Comprador 905
+
+RUT	Nombre	9501 Rapel	9500 Marketing
+80147100	CAFE HAITI AHUMADA LTDA.	 $     1,296,792	 $                185,256
+96760560	CIA.COMER. DE ALIMENTOS ONZA	 $        327,700	 $                327,700
+99573760	OLIVOS DEL SUR S.A.	 $          99,480	 $                  24,870
+
+Comprador 905
+
+RUT	Nombre	9501 Rapel	9501 Logístico	9502 Mermas	9500 Marketing
+76455830	DIWATTS S.A.	 $     2,478,325	 $          1,239,162	 $            619,581	 $                619,581
+96565260	TRESMONTES LUCCHETTI SERVICIOS	 $     2,688,054	 $             448,009	 $            224,004	 $                672,013
+
+Comprador 905
+
+RUT	Nombre	9501 Rapel	9502 Mermas	9500 Marketing
+96692160	IMPORT. DISTRIBUIDORA KW SPA.	 $  325,260	 $       130,104	 $           195,156
+78232960	IMPORT. Y COM. CAFETAL LTDA.	 $  335,592	 $         55,932	 $           111,864
+76474314	TAMY SPA.	 $    36,122	 $         12,041	 $             12,041
+
+
+Comprador 905
+
+UNILEVER RUT.92.091.000-9	 
+Concepto	Monto
+9501 Acuerdo Comercial MAR 2023	 $                       2,885,405
+9501 CBT MAR 2023	 $                       9,233,295
+9502 Mermas MAR 2023	 $                       1,121,578
+9501 Logístico MAR 2023	 $                       2,243,155
+9501 Puntualidad MAR 2023	 $                       2,243,155
+9501 Crecimiento MAR 2023	 $                       4,580,435

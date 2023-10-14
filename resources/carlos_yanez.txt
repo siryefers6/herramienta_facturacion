@@ -1,0 +1,169 @@
+Rut : 84.273.400-2
+ENGATEL  LTDA.
+Centro de costo: 9501  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : REBATE Q3 AÑO 2023
+Monto  $  2.842.766 + iva
+
+Rut : 84.273.400-2
+ENGATEL  LTDA.
+Centro de costo: 9502  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : MERMAS Q3 AÑO 2023
+Monto  $  426.415 + iva
+
+Rut : 96.517.960-7
+ENERGIZER DE CHILE SPA
+Centro de costo: 9501  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : REBATE Q3 AÑO 2023
+Monto  $  2.681.875 + iva
+
+Rut : 96.517.960-7
+ENERGIZER DE CHILE SPA
+Centro de costo: 9502  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : MERMAS Q3 AÑO 2023
+Monto  $  893.958 + iva
+
+Rut : 96.659.890-5
+TEKNOFAS  S.A.
+Centro de costo: 9501  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : REBATE Q3 AÑO 2023
+Monto  $  5.535.140 + iva
+
+Rut : 96.785.290-2
+CHILEAN TRADING COMPANY
+Centro de costo: 9501  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : REBATE Q3 AÑO 2023
+Monto  $  930.130 + iva
+
+Rut : 96.785.290-2
+CHILEAN TRADING COMPANY
+Centro de costo: 9502  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : MERMAS Q3 AÑO 2023
+Monto  $  93.013 + iva
+
+Rut : 99.516.750-6
+WORLD PACK S.A.
+Centro de costo: 9501  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : REBATE Q3 AÑO 2023
+Monto  $  59.718 + iva
+
+Rut : 99.516.750-6
+WORLD PACK S.A.
+Centro de costo: 9502  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : MERMAS Q3 AÑO 2023
+Monto  $  29.859 + iva
+Rut : 76.782.960-4
+COMERCIAL AK LTDA.
+Centro de costo: 9501  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : REBATE Q3 AÑO 2023
+Monto  $  632.169 + iva
+
+Rut : 77.124.200-6
+GRAFICA INDUST. SOTO Y CIA. LTDA.
+Centro de costo: 9501  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : REBATE Q3 AÑO 2023
+Monto  $  1.694.024 + iva
+
+Rut : 77.261.080-7
+PAPELERA  RIOCLARO  S.A.
+Centro de costo: 9501  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : REBATE Q3 AÑO 2023
+Monto  $  367.659 + iva
+
+Rut : 77.387.530-8
+HINZQUIN  LTDA.
+Centro de costo: 9501  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : REBATE Q3 AÑO 2023
+Monto  $  1.372.796 + iva
+
+Rut : 77.395.948-K
+WEVALIA CORP SPA
+Centro de costo: 9501  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : REBATE Q3 AÑO 2023
+Monto  $  1.010.829 + iva
+
+Rut : 77.395.948-K
+WEVALIA CORP SPA
+Centro de costo: 9500
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : MKT  Q3 AÑO 2023
+Monto  $  202.166 + iva
+
+Rut : 77.681.862-3
+RAGAAN  SPA
+Centro de costo: 9501  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : REBATE Q3 AÑO 2023
+Monto  $  1.623.020 + iva
+
+Rut : 77.740.500-4
+GLAM  S.A.
+Centro de costo: 9501  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : REBATE Q3 AÑO 2023
+Monto  $  158.781 + iva
+
+Rut : 77.740.500-4
+GLAM  S.A.
+Centro de costo: 9502
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : MERMAS Q3 AÑO 2023
+Monto  $  31.756 + iva
+
+Rut : 79.948.840-K
+COMERCIAL  TOTALPACK LTDA.
+Centro de costo: 9501  
+Código Vendedor: 903
+Código Planilla :3132
+Condición : 07  días
+Glosa : REBATE Q3 AÑO 2023
+Monto  $  37.400 + iva

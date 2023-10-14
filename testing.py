@@ -86,9 +86,30 @@ from model.cc_especial import CcEspecial
 
 from modules.texto_correo import *
 
-# print(limpiar_archivo_txt())
-# print(lineas_archivo_txt())
 
 texto_rebate = TextoCorreo('archivo.txt')
 
-print(texto_rebate.extraer_ruts())
+# print(texto_rebate.extraer_ruts())
+# print(texto_rebate.extraer_ccostos())
+
+# print(texto_rebate.extraer_montos())
+# print(texto_rebate.extraer_vendedores())
+# print(texto_rebate.extraer_glosas())
+
+## testing extraer texto rebates
+
+ruts = texto_rebate.extraer_ruts()
+ccostos = texto_rebate.extraer_ccostos()
+glosas = texto_rebate.extraer_glosas()
+montos = texto_rebate.extraer_montos()
+vendedor = texto_rebate.extraer_vendedores()
+
+for rut in ruts:
+    print(rut)
+for cc in ccostos:
+    print(cc)
+for glosa in glosas:
+    print(glosa)
+for monto in montos:
+    print(monto)
+print(vendedor)

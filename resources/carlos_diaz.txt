@@ -1,0 +1,130 @@
+
+Favor hacer facturas
+ 
+rut  76.230.038         c  costo   9501       vend   902  planilla 3131
+Rappel  3 Q 
+$ 3.360.375.-
+
+rut  76.230.038        c  costo  9500      vend  902     planilla 3131
+Marketing Q 3
+$ 2.240.250.-
+
+rut 76.264.075        c  costo  9501         vend   902    planilla   3131
+Rappel  Q 3 
+$1.321.786.-
+
+rut  76.264.075       c  costo    9500       vend    902       planilla   3131
+marketing  Q 3
+$ 660.893.-
+
+rut 90.436.000        c  costo   9501         vend   902      planilla  3131
+rappel  Q 3
+$ 7.476.433
+
+rut  90.436.000      c  costo    9502         vend   902      planilla  3131
+Mermas  Q 3
+$747.643.-
+
+rut    90.436.000     c  costo    9500        vend  902        planilla  3131
+Rappel  Q 3 cobertura
+$1.495.287.-
+
+rut     90.436.000       c  costo   9500      vend  902        planilla   3131
+Marketing  Q 3
+$ 900.000.-
+
+rut 90.436.000         c  costo    9504      vend   902        planilla   3131
+Aporte  logistico  Q 3
+$1.342.930.-
+
+rut  96.681.470        c  costo   9501        vend    902      planilla    3131
+Rappel  Q 3
+$ 6.541.370.-
+
+rut   96.681.470       c  costo     9501       vend    902       planilla   3131
+spike  Q 3
+$3.270.685
+
+rut 96.863.240       c costo    9501       vend     902         planilla   3131
+Rappel  Q 3
+$ 3.093.360.-
+
+rut   96.863.240       c  costo   9500       vend   902        planilla    3131
+Marketing   Q 3
+$ 618.672.-
+
+rut   96.863.240         c  costo    9502        vend  902      planilla    3131
+mermas  Q 3
+$ 618.672.-  
+
+rut 93.847.000             c  costo    9501         vend   902        planilla   3131
+Rappel   Q 3
+$ 1.417.662.-
+
+rut 93.847.000          c   costo   9500            vend   902      planilla  3131
+marketing Q 3
+$ 472.554.-
+ 
+rut  93.847.000          c  costo    9504           vend   902       planilla   3131
+aporte publicitario  Q 3
+$ 1.890.216.-
+
+rut  79.581.120           c  costo    9501       vend    902          planilla   3131
+rebate  ventas Q 3
+$  2.333.641.-
+
+rut  79.581.120           c  costo    9500           vend    902       planilla   3131
+marketing  Q 3
+$ 262.535.-
+
+rut  79.581.120          c   costo     9502           vend    902        planilla  3131
+Mermas   Q 3
+$ 291.705.-
+
+rut  79.581.120           c costo        9501          vend   902        planilla   3 131
+rebate distribuicion  Q 3
+$ 2.333.641.-
+
+rut 92.893.000            c costo     9501               vend    902      planilla   3131
+rebate      Q 3
+$ 756.196.-
+
+rut  92.893.000           c  costo    9500                  vend   902     planilla     3131
+marketing   Q 3
+$378.098.-
+
+rut   92.893.000         c costo    9503              vend  902    planilla    3131
+   Costos especiales  chile compra  Q 3
+$ 252.066.-
+
+rut  76.515.941              c  costo    9501             vend   902      planilla 3131
+rappel Q 3
+$1.068.846.-
+
+rut   90.436.000         c  costo  9504   vend 902  planilla   3131
+Feria prisa
+$ 3.666.638.-
+
+Gracias.
+
+Favor hacer factura
+Rut  90.703.000        vend      902    c costo  9501   planilla 3131
+cierre agosto  2023
+$ 76.482.174  segun caps  468235  / 468236  / 468238  / 468239 / 468240  / 469290
+
+
+Gracias.
+
+rut  93.240.000      c  costo   9501   vend   902   planilla  3131
+descuento 3 % lysoform agosto
+$ 1.409.328.-
+
+Gracias.
+
+rut  76.445.026        c  costo  9501    vend  902      planilla   3131
+Acuerdo comercial Q 2
+$ 3.063.288.
+
+rut  76.445.026         c  costo   9500   vend  902      planilla 3131
+acuerdo comercial  Q 2 marketing
+$ 1.021.096.-
