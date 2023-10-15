@@ -1,25 +1,10 @@
-912
+Por favor si me puedes ayudar con estas facturitas.  Mil gracias.
 
-por favor facturar rebate Q3  2023 al proveedor 78923020-K    ELECTRONICA FUJICORP S.A ASI: 
 
-  
-
-  
-
-FACTURA 1  CC 9501   *REBATE Q3 2023 
-   -------       $    100.363 = + IVA 
-
-  
-
-FACTURA 2  CC 9500   *MARKETING  Q3 2023
-  ---     $      50.181=  + IVA 
-
-  
-
-FACTURA 3  CC 9502   *APORTE MERMAS Q3 2023
-  $      50.181 =   + IVA 
-
-  
-
-FACTURA 4  CC 9501   *REBATE LG  Q3 2023
-   -       $      50.181 =   + IVA 
+CC  9503	 	 	 
+VENDEDOR 911	 	 	 
+ 	 	 
+PROVEEDOR	RUT	MONTO NETO	GLOSA
+ACCO BRANDS	   96,898,450-	$2,069,520	*Actividad Promocional Equipa tu Oficina 2022 (1)
+VIRUTEX ILKO S.A.	   93,550,000-	$3,733,174	*Costos Especiales Agosto - 2023
+VIRUTEX ILKO S.A.	   93,550,000-	$8,206,777	*PUBLICIDAD - ANIVERSARIO 2023
