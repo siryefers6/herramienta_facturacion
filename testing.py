@@ -104,6 +104,15 @@ glosas = texto_rebate.extraer_glosas()
 montos = texto_rebate.extraer_montos()
 vendedor = texto_rebate.extraer_vendedores()
 
+print('ruts', len(ruts))
+print('ruts', ruts)
+print('ccostos', len(ccostos))
+print('ccostos', ccostos)
+print('glosas', len(glosas))
+print('glosas', glosas)
+print('montos', len(montos))
+print('montos', montos)
+
 nueva_lista_ruts = []
 nueva_lista_ccs = []
 nueva_lista_glosas = []
