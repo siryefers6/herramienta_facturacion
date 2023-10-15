@@ -12,9 +12,9 @@ class TextoCorreo:
         self.ruta_archivo = ruta_archivo
         
     def limpiar_archivo_txt(self) -> str:
-        with open(self.ruta_archivo, 'r', encoding='ascii', errors='ignore') as archivo:
+        with open(self.ruta_archivo, 'r', encoding='utf-8') as archivo:
             texto = archivo.read()
-        texto = texto.replace('Á', 'A').replace('É', 'E').replace('Í', 'I').replace('Ó', 'O').replace('Ú', 'U').replace(',', '').replace('.', '').replace('\t', ' ').replace('  ', ' ').replace('  ', ' ').upper()
+        texto = texto.replace('.-', ' ').replace('  -', '0').replace(',', '').replace('.', '').replace('\t', ' ').replace('  ', ' ').replace('  ', ' ').upper()
         return texto
 
     def lineas_archivo_txt(self) -> list:
@@ -61,4 +61,8 @@ class TextoCorreo:
         texto_limpio = self.eliminar_cadenas_de_texto(cadenas, texto)
         patron_glosa = r"\*(.{1,})\s*"
         glosas = re.findall(patron_glosa, texto_limpio)
+        glosas_sin_espacios = []
+        for glosa in glosas:
+            glosas_sin_espacios.append(glosa.strip())
+        glosas = glosas_sin_espacios
         return glosas

@@ -104,12 +104,39 @@ glosas = texto_rebate.extraer_glosas()
 montos = texto_rebate.extraer_montos()
 vendedor = texto_rebate.extraer_vendedores()
 
-for rut in ruts:
-    print(rut)
-for cc in ccostos:
-    print(cc)
-for glosa in glosas:
-    print(glosa)
-for monto in montos:
-    print(monto)
-print(vendedor)
+nueva_lista_ruts = []
+nueva_lista_ccs = []
+nueva_lista_glosas = []
+if len(ccostos) == len(glosas) and (len(ruts) != len(montos) or len(ruts) != len(ccostos)):
+    for rut in ruts:
+        rut_multiplicado = (f'-{rut}' * len(ccostos))[1:].split('-')
+        nueva_lista_ruts += rut_multiplicado
+    ruts = nueva_lista_ruts
+
+    for n in range(0, len(ruts)):
+        nueva_lista_ccs += ccostos
+        nueva_lista_glosas += glosas
+    ccostos = nueva_lista_ccs
+    glosas = nueva_lista_glosas
+
+if len(ccostos) != len(montos):
+    for n in range(0, len(montos)):
+        nueva_lista_ccs += ccostos
+    ccostos = nueva_lista_ccs
+
+for i in range(0, len(ruts)):
+    if montos[i] == '0':
+        continue
+    if len(glosas[i]) <= 40:
+        print(f'{ruts[i]},{ccostos[i]},{glosas[i]},,{montos[i]},{vendedor}')
+    else:
+        palabras = glosas[i].split(' ')
+        glosa1 = ''
+        glosa2 = ''
+        for palabra in palabras:
+            if glosa2 == '' and len((glosa1 + ' ' + palabra).strip()) <= 40:
+                glosa1 = glosa1 + ' ' + palabra
+            else:
+                glosa2 = glosa2 + ' ' + palabra
+        print(f'{ruts[i]},{ccostos[i]},{glosa1.strip()},{glosa2.strip()},{montos[i]},{vendedor}')
+
