@@ -7,7 +7,7 @@ from model.item import Item
 from model.solicitante_facturas import SolicitanteFacturas
 
 
-class TextoCorreo:
+class TextoCorreoRebates:
     def __init__(self, ruta_archivo) -> None:
         self.ruta_archivo = ruta_archivo
         

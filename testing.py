@@ -1,3 +1,4 @@
+
 # testing class Cliente.py #
 
 from model.cliente import Cliente
@@ -84,10 +85,11 @@ from model.cc_especial import CcEspecial
 # CcEspecial.importar_csv(CcEspecial)
 # print(CcEspecial.listar_ccostos(CcEspecial))
 
-from modules.texto_correo import *
+from modules.texto_correo_rebates import *
+import csv, os
 
 
-texto_rebate = TextoCorreo('archivo.txt')
+texto_rebate = TextoCorreoRebates('archivo.txt')
 
 # print(texto_rebate.extraer_ruts())
 # print(texto_rebate.extraer_ccostos())
@@ -104,14 +106,14 @@ glosas = texto_rebate.extraer_glosas()
 montos = texto_rebate.extraer_montos()
 vendedor = texto_rebate.extraer_vendedores()
 
-print('ruts', len(ruts))
-print('ruts', ruts)
-print('ccostos', len(ccostos))
-print('ccostos', ccostos)
-print('glosas', len(glosas))
-print('glosas', glosas)
-print('montos', len(montos))
-print('montos', montos)
+# print('ruts', len(ruts))
+# print('ruts', ruts)
+# print('ccostos', len(ccostos))
+# print('ccostos', ccostos)
+# print('glosas', len(glosas))
+# print('glosas', glosas)
+# print('montos', len(montos))
+# print('montos', montos)
 
 nueva_lista_ruts = []
 nueva_lista_ccs = []
@@ -133,11 +135,14 @@ if len(ccostos) != len(montos):
         nueva_lista_ccs += ccostos
     ccostos = nueva_lista_ccs
 
+data = [['Rut', 'Ccosto', 'Glosa linea 1', 'Glosa linea 2', 'Monto', 'Vendedor', 'F.pago', 'Orden de compra', 'Hes', 'Factura No.', 'Copiar Datos Factura', 'Copiar Glosa y Montos'],]
+
 for i in range(0, len(ruts)):
     if montos[i] == '0':
         continue
     if len(glosas[i]) <= 40:
-        print(f'{ruts[i]},{ccostos[i]},{glosas[i]},,{montos[i]},{vendedor}')
+        datos_fact = f'{ruts[i]},{ccostos[i]},{glosas[i]},,{montos[i]},{vendedor},07'
+        data.append(datos_fact.split(','))
     else:
         palabras = glosas[i].split(' ')
         glosa1 = ''
@@ -147,5 +152,11 @@ for i in range(0, len(ruts)):
                 glosa1 = glosa1 + ' ' + palabra
             else:
                 glosa2 = glosa2 + ' ' + palabra
-        print(f'{ruts[i]},{ccostos[i]},{glosa1.strip()},{glosa2.strip()},{montos[i]},{vendedor}')
+        datos_fact = f'{ruts[i]},{ccostos[i]},{glosa1.strip()},{glosa2.strip()},{montos[i]},{vendedor},07'
+        data.append(datos_fact.split(','))
 
+archivo_csv_rebates = 'facturas_rebate.csv'
+
+with open(archivo_csv_rebates, mode='w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerows(data)
